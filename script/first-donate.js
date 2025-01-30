@@ -10,6 +10,9 @@ document.getElementById('fst-donate').addEventListener('click',
         const updateBal = firstMainbal - firstInput;
         document.getElementById('mainBalnce').innerText = updateBal;
         firstspan.innerText = firstInput;
+        const p = document.createElement('p');
+        p.innerText = `added:${firstInput} tk. Eastern Flash Flood Situation :${updateBal}`;
+        document.getElementById('history-sec').appendChild(p);
 
 
 
