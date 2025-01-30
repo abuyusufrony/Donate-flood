@@ -9,3 +9,7 @@ function clickByuser(id) {
 
     document.getElementById(id).classList.remove('hidden');
 }
+document.getElementById('donate-button').addEventListener('click', function () {
+
+    console.log('button are clicked');
+})
