@@ -26,15 +26,13 @@
             function () {
                 const getInput = document.getElementById('input');
                 const getinputText = getInput.value
-                getInputValue = parseFloat(getinputText)
+                const getInputValue = parseFloat(getinputText)
                 console.log(getinputText);
                 const spanInput = document.getElementById('span-show');
                 const spanInputTxt = spanInput.innerText;
                 const spanInputValue = parseFloat(spanInputTxt);
-                const sum = spanInputValue + getInputValue;
-                // console.log(typeof spanInputValue);
-                console.log(typeof getInputValue)
-                console.log(sum);
+                const sumFlood = getInputValue + spanInputValue;
+                document.getElementById('span-show').innerText = sumFlood;
 
             }
         )
