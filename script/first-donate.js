@@ -6,6 +6,9 @@ document.getElementById('fst-donate').addEventListener('click',
 
 
         const firstspan = document.getElementById('first-span');
+        // const firstSpanValue = firstspan.innerText;
+        // const firsSpanValueFloat = parseFloat(firstSpanValue);
+        // console.log(typeof firsSpanValueFloat);
 
         const firstMainbal = document.getElementById('mainBalnce').innerText;
         const updateBal = firstMainbal - firstInput;

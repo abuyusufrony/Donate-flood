@@ -8,8 +8,8 @@ function clickByuser(id) {
     document.getElementById('history-sec').classList.add('hidden');
 
     document.getElementById(id).classList.remove('hidden');
+} function changeColor() {
+    const button = document.getElementById('donate-button');
+    button.style.background = 'green';
 }
-document.getElementById('donate-button').addEventListener('click', function () {
 
-    console.log('button are clicked');
-})
