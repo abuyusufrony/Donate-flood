@@ -3,6 +3,8 @@ document.getElementById('fst-donate').addEventListener('click',
 
 
         const firstInput = getInputByuser('first-input');
+
+
         const firstMainbal = document.getElementById('mainBalnce').innerText;
 
 
@@ -25,27 +27,28 @@ document.getElementById('fst-donate').addEventListener('click',
         p.innerText = `added:${firstInput} tk. Eastern Flash Flood Situation :${updateBal}`;
         document.getElementById('history-sec').appendChild(p);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 )
