@@ -8,10 +8,15 @@ document.getElementById('second-donate').addEventListener('click', function () {
     }
     else {
         const secondSpan = document.getElementById('second-span').innerText;
+
         document.getElementById('second-span').innerText = secondInput;
         const secondMain = document.getElementById('mainBalnce').innerText;
+
+        console.log(secondSum)
         const SecondBiyog = secondMain - secondSpan;
+
         document.getElementById('mainBalnce').innerText = SecondBiyog;
+
 
 
         const div = document.createElement('div');
